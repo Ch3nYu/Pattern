@@ -58,7 +58,7 @@ int main ( ) {
             }
             token = strtok ( NULL, " " );
         }
-        printf ( "%s %s\n", searchpattern, mask );
+        printf ( "%s, %s\n", searchpattern, mask );
     }
 
     main ( );
